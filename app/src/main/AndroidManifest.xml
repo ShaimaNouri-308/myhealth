@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myhealth">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".fat"></activity>
+        <activity android:name=".carbs" />
+        <activity android:name=".vegan" />
+        <activity android:name=".normal" />
+        <activity android:name=".stretch" />
+        <activity android:name=".lowerbody" />
+        <activity android:name=".core" />
+        <activity android:name=".upperbody" />
+        <activity android:name=".fullbody" />
+        <activity android:name=".warmup" />
+        <activity android:name=".tips2" />
+        <activity android:name=".diet" />
+        <activity android:name=".workout" />
+        <activity android:name=".kudalini" />
+        <activity android:name=".vinyasa" />
+        <activity android:name=".hatha" />
+        <activity android:name=".bikram" />
+        <activity android:name=".yoga" />
+        <activity android:name=".unwind" />
+        <activity android:name=".stress" />
+        <activity android:name=".basics" />
+        <activity android:name=".breathe" />
+        <activity android:name=".tips1" />
+        <activity android:name=".meditate" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".physical" />
+        <activity android:name=".mental" />
+        <activity android:name=".secondpage" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

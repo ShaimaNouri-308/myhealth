@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".diet"
+    android:background="@drawable/mental">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/rounded_corners"
+        android:text="عودة"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/icon" />
+
+    <Button
+        android:id="@+id/normal"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/normal"/>
+
+    <Button
+        android:id="@+id/vegan"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="220dp"
+        android:background="@drawable/vegan"/>
+
+
+    <Button
+        android:id="@+id/carbs"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/carbs"/>
+
+    <Button
+        android:id="@+id/fats"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginLeft="220dp"
+        android:background="@drawable/fat"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="370dp"
+        android:text="العادي"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:text= "النباتي"
+        android:textSize="30sp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="220dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="125dp"
+        android:layout_height="90dp"
+        android:text="منخفض الكربوهيدرات"
+        android:textSize="30sp"
+        android:layout_marginTop="545dp"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:text= "قليل الدسم"
+        android:textSize="30sp"
+        android:layout_marginTop="545dp"
+        android:layout_marginLeft="220dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="40dp"
+        android:text="ما نوع النظام الغذائي الذي تريده:"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:textAlignment="center"/>
+
+
+
+</RelativeLayout>

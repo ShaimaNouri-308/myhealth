@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stretch"
+    android:background="@drawable/mental">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/icon" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/rounded_corners"
+        android:text="عودة"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="تمدد ١: https://www.youtube.com/watch?v=_IoYLhrTBqY "
+        android:layout_marginTop="150dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="تمدد ٢: https://www.youtube.com/watch?v=qULTwquOuT4 "
+        android:layout_marginTop="220dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="تمدد ٣: https://www.youtube.com/watch?v=tXWh-dowiLg "
+        android:layout_marginTop="290dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="تمدد ٤: https://www.youtube.com/watch?v=FlAvRcz0zuY "
+        android:layout_marginTop="360dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="تمدد ٥: https://www.youtube.com/watch?v=Ny0IiCnaGfc "
+        android:layout_marginTop="430dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="تمدد ٦: https://www.youtube.com/watch?v=Q_VZCz9U4Hg "
+        android:layout_marginTop="500dp"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

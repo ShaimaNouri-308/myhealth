@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".secondpage"
+    android:background="@drawable/pg2">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:fontFamily="sans-serif-light"
+        android:text="ما نوع التمارين التي تودها اليوم؟"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/body"/>
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="425dp"
+        android:background="@drawable/mind"/>
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/icon" />
+
+
+
+</RelativeLayout>

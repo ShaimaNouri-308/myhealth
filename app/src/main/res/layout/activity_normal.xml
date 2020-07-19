@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".normal"
+    android:background="@drawable/background6" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/icon" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/rounded_corners"
+        android:text="عودة"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="العادي ١: https://www.nhs.uk/live-well/eat-well/ "
+        android:layout_marginTop="150dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="العادي ٢: https://www.healthline.com/health/balanced-diet#what-is-it "
+        android:layout_marginTop="220dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="العادي ٣: https://www.drugs.com/cg/regular-diet.html "
+        android:layout_marginTop="290dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:text="العادي ٤: https://www.verywellfit.com/an-example-of-a-healthy-balanced-meal-plan-2506647 "
+        android:layout_marginTop="360dp"
+        android:textSize="20sp"/>
+
+
+
+</RelativeLayout>

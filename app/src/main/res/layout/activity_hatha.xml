@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hatha"
+    android:background="@drawable/background4">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/icon" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/rounded_corners"
+        android:text="عودة"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="هاثا ١: https://www.youtube.com/watch?v=uH2N2gmjhl0 "
+        android:layout_marginTop="150dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="هاثا ٢: https://www.youtube.com/watch?v=GWg-siH2VEA "
+        android:layout_marginTop="220dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="هاثا ٣: https://www.youtube.com/watch?v=Zcn2vT73jsI "
+        android:layout_marginTop="290dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="هاثا ٤: https://www.youtube.com/watch?v=_ckvBL-erGU "
+        android:layout_marginTop="400dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="هاثا ٥: https://www.youtube.com/watch?v=FTRvrYwsXFY "
+        android:layout_marginTop="470dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="هاثا ٦: https://www.youtube.com/watch?v=7-6bUCkhO3s "
+        android:layout_marginTop="540dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="مبتدئين"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="100dp"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="متقدمين"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="360dp"
+        android:textSize="30dp"/>
+
+</RelativeLayout>
